@@ -1,6 +1,8 @@
 # Flint
 A Budget (and Currently Sketchy) Full Arduino EEPROM Programmer for 28Cx EEPROMs
 
+NOTE: Still Editing This .md
+
 ## What does Flint do?
 Flint is a really sketchy way to use an Arduino to program an EEPROM fully. This sketch uses a Makefile to generate 6KB chunks of binary data and imports them to the sketch directory. This allows you to flash the Aurdino with the data without relying on the Serial Bus to send data (which I had problems using - I will be looking into using this in future versions, but this works currently). I created this project because I didn't want to pay £70 for an EEPROM programmer at the current time of building my project.
 
